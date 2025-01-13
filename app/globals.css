@@ -24,6 +24,15 @@ body {
 
 
 @layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+          display: none;
+      }
+     /* Hide scrollbar for IE, Edge and Firefox */
+      .no-scrollbar {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+    }
+    
   .section-padding {
     @apply px-5 md:px-10 lg:px-14 xl:px-28;
   }
