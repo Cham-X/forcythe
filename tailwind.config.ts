@@ -30,9 +30,19 @@ const config: Config = {
           '50%': { transform: 'scale(1.1)', opacity: "0.8" },
           '100%': { transform: 'scale(1)', opacity: "1" },
         },
+        "scroll": {
+          "0%": { transform: "translatex(0)" },
+          "100%": { transform: "translatex(-100%)" }
+        },
+        "scroll-reverse": {
+          "0%": { transform: "translatex(-100%)" },
+          "100%": { transform: "translatex(0)" }
+        }
       },
       animation: {
         'pulse-bg': 'pulse-bg 3s infinite ease-in-out',
+        "scroll": 'scroll 1000s linear infinite',
+        "scroll-reverse": 'scroll-reverse 1000s linear infinite',
       },
     }
   },

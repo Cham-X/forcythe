@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-lexend: 'Lexend', sans-serif;
+}
+
 body {
  color: #fff;
     background-color: #030516;
+    font-family: var(--font-lexend);
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 1.6875em;

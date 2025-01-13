@@ -23,10 +23,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lexend.variable}  antialiased`}
+        className={`${lexend.variable} antialiased`}
       >
         <Navbar />
-        {children}
+        <main className="w-full mt-[6.3rem] md:mt-[6.8rem]">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

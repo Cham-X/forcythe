@@ -54,7 +54,7 @@ const Navbar = () => {
                             Book a call
                         </Button>
                     </div>
-                    <div className="bg-white bg-opacity-10 rounded-[0.35rem] p-3 md:hidden cursor-pointer">
+                    <div className="bg-white bg-opacity-10 rounded-[0.35rem] px-3 pt-3 pb-[0.4rem] md:hidden cursor-pointer">
                         <MobileNavigation />
                     </div>
                 </div>
